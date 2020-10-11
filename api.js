@@ -1,7 +1,7 @@
 export function fetchVideos(date, pageToken = null) {
   const params = {
       part: 'snippet',
-      key: 'AIzaSyBkdvdcsq7Cs44fyDTLlB1CfHWNi5tTmPk',
+      key: 'AIzaSyBBhaMiltxhY2ROBR2v8KvkPGPlSxbgqyc',
       publishedAfter: date.toISOString(),
       type: 'video',
       videoDuration: 'short',
